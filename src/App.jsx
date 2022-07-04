@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./App.css";
-import Background from "./Images/calido.jpg";
+import Background from "./images/calido.jpg";
 
 function App() {
   const [climate, setClimate] = useState({});
@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <div className="app-background">
-        <img src={Background} alt="" className="back" />
+        <img src={Background} className="back"/>
       </div>
       <div className="app-components">
         <div className="climate">
